@@ -14,4 +14,5 @@ sudo apt install libprotobuf-dev
 mkdir build
 cd build
 cmake ../
+make
 ```
