@@ -1,2 +1,17 @@
-# cpp_demo_for_protobuf
-💻一个在交叉编译环境中使用protobuf的c++示例
+## 安装 protoc 编译器
+```bash
+sudo apt install protobuf-compiler
+```
+
+## 安装 protobuf 运行时
+
+```bash
+sudo apt install libprotobuf-dev
+```
+
+## 编译
+```bash
+mkdir build
+cd build
+cmake ../
+```
